@@ -8,10 +8,23 @@
   --icon-glow: rgba(52,193,255,0.18);
   font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 }
-*{box-sizing:border-box}
 
 
 
+* {
+  box-sizing: border-box;
+}
+
+/* Make the whole page text smaller */
+body {
+  font-size: 14px; /* adjust size as needed (12px–15px recommended) */
+}
+
+/* Keep header text at normal size */
+header,
+header * {
+  font-size: 1rem;
+}
 
 
 
